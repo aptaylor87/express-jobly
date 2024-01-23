@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://our.company.com/companyFilter.schema.json",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "maxEmployees": {
+        "type": "string",
+        "pattern": "^[0-9]+$"
+      },
+      "minEmployees": {
+        "type": "string",
+        "pattern": "^[0-9]+$"
+      }
+    },
+    "additionalProperties": false,
+    "required": []
+  }
+  
